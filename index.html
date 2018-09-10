@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Quiz</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+		<link href="quiz.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+	</head>
+	<body>
+		<div id="quizContainer" class="container">
+			<div class="title">Js  Quiz</div>
+			<div id="question" class="question"></div>
+			<label class="option"><input type="radio" name="option" value="1" /> <span id="opt1"></span></label>
+			<label class="option"><input type="radio" name="option" value="2" /> <span id="opt2"></span></label>
+			<label class="option"><input type="radio" name="option" value="3" /> <span id="opt3"></span></label>
+			<label class="option"><input type="radio" name="option" value="4" /> <span id="opt4"></span></label>
+			<button id="nextButton" class="next-btn" onclick="loadNextQuestion();">Next Question</button>
+
+			<br>
+			<br>
+			<br>
+			<br>
+					
+			<p align="center">Made With <span style="font-size:150%;color:red;">&hearts;</span> By Saad Pasta!</p>
+
+		</div>
+		<div id="result" class="container result" style="display:none;">
+
+		</div>
+		<script src="question.js"></script>
+		<script src="quiz-script.js"></script>
+	</body>
+</html>
